@@ -1,17 +1,16 @@
 package edu.cwru.passwordmanager;
 
+import java.io.IOException;
+
 import atlantafx.base.theme.PrimerDark;
-import atlantafx.base.theme.PrimerLight;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
 public class PasswordApplication extends Application {
     // TODO: Give your app a anme!
-    final private String applicationName = "My Password Manager";
+    final private String applicationName = "Naveens Password Manager";
     static Stage primaryStage = null;
     @Override
     public void start(Stage stage) throws IOException {

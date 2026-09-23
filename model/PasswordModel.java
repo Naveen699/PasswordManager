@@ -1,15 +1,10 @@
 package edu.cwru.passwordmanager.model;
 
+import java.io.File;
+import java.io.IOException;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-
-import javax.crypto.*;
-import javax.crypto.spec.PBEKeySpec;
-import javax.crypto.spec.SecretKeySpec;
-import java.io.*;
-import java.security.SecureRandom;
-import java.security.spec.KeySpec;
-import java.util.Base64;
 
 
 public class PasswordModel {
